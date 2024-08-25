@@ -1,0 +1,303 @@
+[
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "vegajesus96705@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2806:105e:2b:41f7:a7af:e5ab:49ef:85e1",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/shining-env-432304-u7",
+      "request": {
+        "pageSize": 500,
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "query": "state:ACTIVE"
+      }
+    },
+    "insertId": "ivpbouf5ihwzo",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shining-env-432304-u7"
+      }
+    },
+    "timestamp": "2024-08-21T07:46:10.330458Z",
+    "severity": "INFO",
+    "logName": "projects/shining-env-432304-u7/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2024-08-21T07:46:11.186303053Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "vegajesus96705@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2806:105e:2b:41f7:a7af:e5ab:49ef:85e1",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/shining-env-432304-u7",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "query": "state:ACTIVE",
+        "pageSize": 500
+      }
+    },
+    "insertId": "59tdbdf7xq5ym",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shining-env-432304-u7"
+      }
+    },
+    "timestamp": "2024-08-21T07:47:58.367269Z",
+    "severity": "INFO",
+    "logName": "projects/shining-env-432304-u7/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2024-08-21T07:47:59.352614537Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "vegajesus96705@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2806:105e:2b:41f7:a7af:e5ab:49ef:85e1",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/shining-env-432304-u7",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "query": "state:ACTIVE",
+        "pageSize": 100
+      }
+    },
+    "insertId": "epusp9f3j9at2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shining-env-432304-u7"
+      }
+    },
+    "timestamp": "2024-08-21T07:48:17.371357Z",
+    "severity": "INFO",
+    "logName": "projects/shining-env-432304-u7/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2024-08-21T07:48:17.492288583Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "vegajesus96705@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2806:105e:2b:41f7:a7af:e5ab:49ef:85e1",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "UpdateProject",
+      "authorizationInfo": [
+        {
+          "resource": "projects/shining-env-432304-u7",
+          "permission": "resourcemanager.projects.update",
+          "granted": true,
+          "resourceAttributes": {
+            "service": "cloudresourcemanager.googleapis.com",
+            "name": "projects/shining-env-432304-u7",
+            "type": "cloudresourcemanager.googleapis.com/Project"
+          },
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/shining-env-432304-u7",
+      "request": {
+        "@type": "type.googleapis.com/google.cloudresourcemanager.v1.UpdateProjectRequest",
+        "projectId": "431935776989",
+        "project": {
+          "name": "My First Project",
+          "projectNumber": "431935776989",
+          "lifecycleState": "ACTIVE",
+          "projectId": "shining-env-432304-u7",
+          "labels": {
+            "generative-language": "enabled"
+          },
+          "createTime": "2024-08-12T04:16:10.701834Z"
+        }
+      },
+      "response": {
+        "projectNumber": "431935776989",
+        "@type": "type.googleapis.com/google.cloudresourcemanager.v1.Project",
+        "createTime": "2024-08-12T04:16:10.701834Z",
+        "lifecycleState": "ACTIVE",
+        "projectId": "shining-env-432304-u7",
+        "labels": {
+          "generative-language": "enabled"
+        },
+        "name": "My First Project"
+      }
+    },
+    "insertId": "-vc2pw9e3bmnm",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shining-env-432304-u7"
+      }
+    },
+    "timestamp": "2024-08-21T07:48:24.829749Z",
+    "severity": "NOTICE",
+    "logName": "projects/shining-env-432304-u7/logs/cloudaudit.googleapis.com%2Factivity",
+    "receiveTimestamp": "2024-08-21T07:48:26.108848353Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "vegajesus96705@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2806:105e:2b:41f7:a7af:e5ab:49ef:85e1",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/shining-env-432304-u7",
+      "request": {
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "query": "state:ACTIVE",
+        "pageSize": 100
+      }
+    },
+    "insertId": "-m5yyyzf37hwc2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shining-env-432304-u7"
+      }
+    },
+    "timestamp": "2024-08-21T07:48:49.043205Z",
+    "severity": "INFO",
+    "logName": "projects/shining-env-432304-u7/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2024-08-21T07:48:49.601792400Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "vegajesus96705@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2806:105e:2b:41f7:a7af:e5ab:49ef:85e1",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/shining-env-432304-u7",
+      "request": {
+        "query": "state:ACTIVE",
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest",
+        "pageSize": 500
+      }
+    },
+    "insertId": "yp0bvlf7xbpe2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shining-env-432304-u7"
+      }
+    },
+    "timestamp": "2024-08-21T07:52:34.936956Z",
+    "severity": "INFO",
+    "logName": "projects/shining-env-432304-u7/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2024-08-21T07:52:34.956617514Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {},
+      "authenticationInfo": {
+        "principalEmail": "vegajesus96705@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2806:105e:2b:41f7:a7af:e5ab:49ef:85e1",
+        "callerSuppliedUserAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Mobile Safari/537.36,gzip(gfe)",
+        "requestAttributes": {},
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudresourcemanager.googleapis.com",
+      "methodName": "SearchProjects",
+      "authorizationInfo": [
+        {
+          "resourceAttributes": {}
+        }
+      ],
+      "resourceName": "projects/shining-env-432304-u7",
+      "request": {
+        "query": "state:ACTIVE",
+        "pageSize": 500,
+        "@type": "type.googleapis.com/google.cloud.resourcemanager.v3.SearchProjectsRequest"
+      }
+    },
+    "insertId": "mrbz46e3nmg2",
+    "resource": {
+      "type": "project",
+      "labels": {
+        "project_id": "shining-env-432304-u7"
+      }
+    },
+    "timestamp": "2024-08-21T07:53:23.609420Z",
+    "severity": "INFO",
+    "logName": "projects/shining-env-432304-u7/logs/cloudaudit.googleapis.com%2Fdata_access",
+    "receiveTimestamp": "2024-08-21T07:53:24.485067067Z"
+  }
+]
